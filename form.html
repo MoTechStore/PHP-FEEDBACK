@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!--        
+  above is the link to boostrap, if you do not have visit bootstrap
+  website(https://bootstrap.com) and download it, it has two folders ( css, js)
+  form is ready , it time to make gender.php which will process the data collected 
+  through a form
+	-->
+<body>
+     <center><h1 class="btn btn-primary">-------------------- You're Welcome --------------------</h1></center>
+     <center><h3>Choose Gender : male or female</h3></center>
+<div class="row" style="padding-top: 1em;padding-left: 10em">
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4">
+		<form action="gender.php" class="form-group" method="POST">
+	      <div class="form-group">
+	      	<label for="gender">Your Gender</label>
+	      	<input type="text" name="gender" class="form-group">
+	      </div>		
+         <div class="container">
+         	<button type="submit" class="btn btn-primary">Submit</button>
+         </div>
+		</form>
+    </div>
+</div>
+</body>
+</html>
